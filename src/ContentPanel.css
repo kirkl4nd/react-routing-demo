@@ -1,0 +1,6 @@
+.content-panel {
+    flex-grow: 1;
+    height: 100vh;
+    overflow: auto;  /* Optional, use this if you want scrollable content */
+  }
+  

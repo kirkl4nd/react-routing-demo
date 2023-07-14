@@ -1,0 +1,22 @@
+.navigation-button {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    border: none;
+    background-color: #e6e6e6;  /* Choose your preferred color */
+    color: #000;  /* Choose your preferred color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-button:hover {
+    background-color: #d4d4d4;  /* Choose your preferred color */
+}
+
+.navigation-button:active {
+    background-color: #c2c2c2;  /* Choose your preferred color */
+}
+
+.navigation-button.selected {
+    background-color: #b4b4b4;  /* Choose your preferred color */
+}
