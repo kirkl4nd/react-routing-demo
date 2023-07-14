@@ -6,4 +6,8 @@
     align-items: center;
     background-color: #f4f4f4;
   }
+
+  .logo-button {
+    text-decoration: none;
+  }
   

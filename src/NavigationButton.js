@@ -1,11 +1,14 @@
 import React from 'react';
 import './NavigationButton.css';
+import { Link, useLocation } from 'react-router-dom';
 
-const NavigationButton = ({ text }) => {
+function NavigationButton({ text, to }) {
+    const location = useLocation();
+    const isSelected = location.pathname === to;
     return (
-        <button className="navigation-button">
+        <Link className={`navigation-button ${isSelected ? 'selected' : ''}`} to={to} >
             {text}
-        </button>
+        </Link>
     );
 };
 

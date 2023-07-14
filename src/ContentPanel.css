@@ -2,5 +2,7 @@
     flex-grow: 1;
     height: 100vh;
     overflow: auto;  /* Optional, use this if you want scrollable content */
+    box-sizing: border-box;
+    padding: 20px;
   }
   

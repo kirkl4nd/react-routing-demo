@@ -1,12 +1,13 @@
 .navigation-button {
     width: 100%;
-    text-align: left;
+    box-sizing: border-box;
     padding: 10px;
     border: none;
     background-color: #e6e6e6;  /* Choose your preferred color */
     color: #000;  /* Choose your preferred color */
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none;
 }
 
 .navigation-button:hover {
